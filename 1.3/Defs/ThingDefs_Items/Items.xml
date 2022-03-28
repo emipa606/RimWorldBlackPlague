@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Orb -->
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>BlackPlague_Vessel</defName>
+		<label>Persona Tardus</label>
+		<description>An ancient vessel, of unknown origin.\n\nReport from the Tuurngait tomb excavation:\n(Site of first discovery)\n\nInterviews with subjects indicate contact with the vessel provides a sense of relief, reportedly lasting for a few hours afterwards.\n\nPsychological examination shows slight deviance in the behaviour of subjects, notably a minor increase in agression, and in some cases claims of auditory hallucinations.\n\nSeveral subjects have developed rashes, and have subsequently been quarantined. Likely unrelated.\n\nFurther study advised.</description>
+		<graphicData>
+		  <texPath>Things/Item/Special/BlackPlague_TurrngaitVessel</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <drawSize>0.8</drawSize>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>1</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+		  <MarketValue>500</MarketValue>
+		  <MaxHitPoints>100</MaxHitPoints>
+		  <Mass>2</Mass>
+		  <Flammability>0.2</Flammability>
+		</statBases>
+		<thingCategories>
+		  <li>Artifacts</li>
+		</thingCategories>
+		<drawGUIOverlay>false</drawGUIOverlay>
+		<techLevel>Medieval</techLevel>
+		<tradeTags>
+		  <li>Artifact</li>
+		  <li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+		<relicChance>3</relicChance>
+		<comps>
+		  <li Class="CompProperties_Styleable"></li>
+		</comps>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,11 @@
+Beacon
+Bulwark
+Refuge
+Cove
+Fjord
+Bay
+Reef
+Trench
+Shelf
+Lagoon
+Lake

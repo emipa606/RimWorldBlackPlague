@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Achievements Expanded</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs</xpath>
+					<value>
+
+						<AchievementsExpanded.AchievementTabDef>
+							<defName>DarkDescent_AchievementsTab</defName>
+							<label>Dark Descent</label>
+						</AchievementsExpanded.AchievementTabDef>
+						
+					<!-- Simple Achievements -->
+						
+						<!-- Obtain items -->
+
+						<AchievementsExpanded.AchievementDef>
+							<defName>BlackPlague_AchievementObtainVessel</defName>
+							<label>Completely Safe to Touch</label>
+							<description>Obtain a Persona Tardus</description>
+							<bgtexPath>Achievements/BlackPlague_AchievementBackground</bgtexPath>
+							<tab>DarkDescent_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.ItemTracker">
+								<def>BlackPlague_Vessel</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/BlackPlague_AchievementObtainVessel</texPath>
+							<points>15</points>
+						</AchievementsExpanded.AchievementDef>
+						
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>
