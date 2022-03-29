@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+
+	<ThoughtDef>
+		<defName>BlackPlague_TuurngaitHivemindThought</defName>
+		<thoughtClass>Mashed_BlackPlague.Thought_Situational_TuurngaitInColony</thoughtClass>
+		<workerClass>Mashed_BlackPlague.ThoughtWorker_Situational_TuurngaitInColony</workerClass>
+		<doNotApplyToQuestLodgers>true</doNotApplyToQuestLodgers>
+		<stages>
+		  <li>
+			<label>Tuurngait hivemind</label>
+			<description>There cannot be one, there can only be us all.</description>
+			<baseMoodEffect>10</baseMoodEffect>
+		  </li>
+		</stages>
+	</ThoughtDef>
+
+ </Defs>
+ 
