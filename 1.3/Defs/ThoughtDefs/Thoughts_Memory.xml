@@ -30,12 +30,13 @@
 	<ThoughtDef>
 		<defName>BlackPlague_TuurngaitConnectionLost</defName>
 		<durationDays>15</durationDays>
+		<stackLimit>15</stackLimit>
 		<doNotApplyToQuestLodgers>true</doNotApplyToQuestLodgers>
 		<stages>
 		  <li>
 			<label>connection lost</label>
 			<description>The silence, one of us is gone!</description>
-			<baseMoodEffect>-10</baseMoodEffect>
+			<baseMoodEffect>-15</baseMoodEffect>
 		  </li>
 		</stages>
 	</ThoughtDef>

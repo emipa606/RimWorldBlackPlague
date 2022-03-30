@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<AlienRace.ThingDef_AlienRace ParentName="ESCP_BasePawnSload">
+	<AlienRace.ThingDef_AlienRace ParentName="BlackPlague_BasePawnTuurngait">
 		<defName>BlackPlague_TuurngaitRace</defName>
 		<label>Tuurngait</label>
-		<description>An emotionless race of slug-like creatures. The Sload are despised by almost everyone due to their tendency towards necromancy. Though Sload soap is a highly used commodity, even given its origins.\n\nSload are rather intelligent, though physically they are extremely cumbersome, and somewhat hideous. Most clothes will not fit them, which is fine, as Sload don't care. And they are unable to wield certain weapons, such as bows and greatswords.\n\nSload make for fantastic researchers and scholars, however they are quite frankly awful at everything else.</description>
+		<description>TODO.</description>
 		<modExtensions>
 	
 		</modExtensions>
@@ -16,7 +16,7 @@
 		<statBases>
 			  <MarketValue>1600</MarketValue>
 
-			  <ComfyTemperatureMin>10</ComfyTemperatureMin>
+			  <ComfyTemperatureMin>-20</ComfyTemperatureMin>
 			  <ComfyTemperatureMax>30</ComfyTemperatureMax>
 			  <PsychicSensitivity>1.5</PsychicSensitivity>
 			  <ImmunityGainSpeed>2</ImmunityGainSpeed>
@@ -65,12 +65,33 @@
 					<name>skin</name>
 					<first Class="ColorGenerator_Options">
 						<options>
-							<!-- white -->
+							<!-- baseline colour -->
+							<li>
+								<weight>5</weight>
+								<only>(249,239,224,255)</only>
+							</li>
+							<li>
+								<weight>3</weight>
+								<only>(249,212,212,255)</only>
+							</li>
+							<!-- darker -->
 							<li>
 								<weight>2</weight>
-								<only>(77,92,87,255)</only>
+								<only>(218,211,219,255)</only>
 							</li>
-							
+							<li>
+								<weight>2</weight>
+								<only>(228,211,212,255)</only>
+							</li>
+							<li>
+								<weight>2</weight>
+								<only>(208,202,203,255)</only>
+							</li>
+							<!-- the gross brown colour -->
+							<li>
+								<weight>1</weight>
+								<only>(142,116,76,255)</only>
+							</li>
 						</options>
 					</first>
 					<second Class="ColorGenerator_Options">
@@ -78,7 +99,23 @@
 							<!-- red -->
 							<li>
 								<weight>2</weight>
-								<only>(229,203,164,255)</only>
+								<only>(113,70,51,255)</only>
+							</li>
+							<li>
+								<weight>2</weight>
+								<only>(134,107,94,255)</only>
+							</li>
+							<li>
+								<weight>2</weight>
+								<only>(93,53,35,255)</only>
+							</li>
+							<li>
+								<weight>2</weight>
+								<only>(99,42,25,255)</only>
+							</li>
+							<li>
+								<weight>2</weight>
+								<only>(56,22,14,255)</only>
 							</li>
 						
 						</options>
@@ -93,7 +130,7 @@
 				<li>
 					<!--<body>Things/Pawn/Humanlike/BlackPlague_Tuurngait/Body/</body>-->
 					<head>Things/Pawn/Humanlike/BlackPlague_Tuurngait/Head/</head>
-					<!--<headMasks>Things/Pawn/Humanlike/BlackPlague_Tuurngait/HeadMask/Mask</headMasks>-->
+					<headMasks>Things/Pawn/Humanlike/BlackPlague_Tuurngait/HeadMask/Mask</headMasks>
 
 					<!--<skeleton>Things/Pawn/Humanlike/BlackPlague_Tuurngait/Dessicated/</skeleton>-->
 					<!--<skull></skull>-->

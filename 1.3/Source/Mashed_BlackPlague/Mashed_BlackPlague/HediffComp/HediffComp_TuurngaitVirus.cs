@@ -29,6 +29,10 @@ namespace Mashed_BlackPlague
             newPawn.Name = originalPawn.Name;
             newPawn.story.traits = originalPawn.story.traits;
             newPawn.ageTracker.AgeBiologicalTicks = originalPawn.ageTracker.AgeBiologicalTicks;
+            if (ModsConfig.IdeologyActive)
+            {
+                newPawn.ideo.SetIdeo(originalPawn.Ideo);
+            }
             //newPawn.gender = originalPawn.gender;
             originalPawn.Kill(null);
             PawnUtility.TrySpawnHatchedOrBornPawn(newPawn, originalPawn.Corpse);
