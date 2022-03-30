@@ -49,13 +49,18 @@ namespace Mashed_BlackPlague
 			else
             {
 				usedBy.needs.mood.thoughts.memories.TryGainMemory(ThoughtDefOf.BlackPlague_TouchedVessel, null, null);
-				MentalState_TouchVessel mentalState_TouchVessel = usedBy.MentalState as MentalState_TouchVessel;
-				if (mentalState_TouchVessel != null)
-                {
-					mentalState_TouchVessel.Notify_VesselTouched();
-					usedBy.MentalState.RecoverFromState();
-                }
 			}
+
+			MentalState_TouchVessel mentalState_TouchVessel = usedBy.MentalState as MentalState_TouchVessel;
+			if (mentalState_TouchVessel != null)
+			{
+				mentalState_TouchVessel.Notify_VesselTouched();
+				usedBy.MentalState.RecoverFromState();
+			}
+            if (Props.recordDef != null)
+            {
+				usedBy.records.Increment(Props.recordDef);
+            }
 			FleckMaker.AttachedOverlay(parent, FleckDefOf.PsycastAreaEffect, Vector3.zero, 1f, -1f);
 			cooldownTicks = Props.cooldownTicksDays;
 		}
@@ -77,7 +82,7 @@ namespace Mashed_BlackPlague
 				failReason = "BlackPlague_Vessel_IsTuurngait".Translate(p.Name);
 				return false;
 			}
-			if (Utility.PawnIsTuurngait(p))
+			if (Utility.PawnIsNotValid(p))
 			{
 				failReason = "BlackPlague_Vessel_IsNotFleshy".Translate(p.Name);
 				return false;

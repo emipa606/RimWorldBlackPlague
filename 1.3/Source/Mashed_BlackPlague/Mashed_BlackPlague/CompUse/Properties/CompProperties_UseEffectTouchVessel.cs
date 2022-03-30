@@ -13,5 +13,6 @@ namespace Mashed_BlackPlague
 
         public float infectChance = 0.1f;
         public int cooldownTicksDays = 60000;   //1 day
+        public RecordDef recordDef;
     }
 }

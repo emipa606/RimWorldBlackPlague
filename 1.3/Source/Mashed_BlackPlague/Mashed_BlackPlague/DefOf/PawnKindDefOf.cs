@@ -13,6 +13,6 @@ namespace Mashed_BlackPlague
 			DefOfHelper.EnsureInitializedInCtor(typeof(ThoughtDefOf));
 		}
 
-		public static PawnKindDef BlackPlague_TuurngaitRace;
+		public static PawnKindDef ESCP_TuurngaitKind;
 	}
 }

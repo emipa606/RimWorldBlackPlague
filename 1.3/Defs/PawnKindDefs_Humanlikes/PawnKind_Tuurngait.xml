@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef>
+		<defName>ESCP_TuurngaitKind</defName>
+		<label>Tuurngait</label>
+		<race>BlackPlague_TuurngaitRace</race>
+		
+		<backstoryFiltersOverride>
+		  <li>
+			<categories>
+			  <li>BlackPlague_TuurngaitBackstory</li>
+			</categories>
+		  </li>
+		</backstoryFiltersOverride>
+		
+		<combatPower>40</combatPower>
+		<baseRecruitDifficulty>0.65</baseRecruitDifficulty>
+		<isFighter>false</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<apparelTags>
+		
+		</apparelTags>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>0</apparelMoney>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+		<techHediffsChance>0</techHediffsChance>
+
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>20~37</initialResistanceRange>	
+	</PawnKindDef>
+
+</Defs>

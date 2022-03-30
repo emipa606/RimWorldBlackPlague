@@ -9,7 +9,8 @@ namespace Mashed_BlackPlague
     {
         public override bool StateCanOccur(Pawn pawn)
         {
-            return base.StateCanOccur(pawn) && VesselObsessionMentalStateUtility.GetClosestVessel(pawn) != null && !Utility.PawnHasVesselThought(pawn);
+            return base.StateCanOccur(pawn) && VesselObsessionMentalStateUtility.GetClosestVessel(pawn) != null 
+                && !Utility.PawnHasVesselThought(pawn) && !Utility.PawnIsTuurngait(pawn) && !Utility.PawnIsNotValid(pawn);
         }
     }
 }

@@ -11,22 +11,7 @@ namespace Mashed_BlackPlague
     {
         public static int TuurngaitInFaction(Faction faction)
         {
-            if (faction == null)
-            {
-                return 0;
-            }
-            int num = 0;
-            using (List<Pawn>.Enumerator enumerator = PawnsFinder.AllMaps_SpawnedPawnsInFaction(faction).GetEnumerator())
-            {
-                while (enumerator.MoveNext())
-                {
-                    if (enumerator.Current != null && enumerator.Current.RaceProps.Humanlike && PawnIsTuurngait(enumerator.Current))
-                    {
-                        num++;
-                    }
-                }
-            }
-            return num;
+            return faction == null ? 0 : TuurngaitInFactionList(faction).Count();
         }
 
         public static List<Pawn> TuurngaitInFactionList(Faction faction)
@@ -66,7 +51,8 @@ namespace Mashed_BlackPlague
 
         public static bool PawnIsNotValid(Pawn p)
         {
-            return p.needs.mood == null || !p.RaceProps.IsFlesh || !p.RaceProps.Humanlike;
+            return p.needs.mood == null || !p.RaceProps.IsFlesh || !p.RaceProps.Humanlike 
+                || p.def.defName == "ESCP_SloadRace";
         }
     }
 }

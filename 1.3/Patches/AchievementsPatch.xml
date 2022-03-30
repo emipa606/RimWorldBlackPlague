@@ -36,7 +36,54 @@
 							</tracker>
 
 							<texPath>Achievements/BlackPlague_AchievementObtainVessel</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<!-- Stats -->
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>BlackPlague_AchievementVesselTouches_First</defName>
+							<label>Persona Tardus Interest</label>
+							<description>Have a pawn touch a Persona Tardus for the first time.</description>
+							<bgtexPath>Achievements/BlackPlague_AchievementBackground</bgtexPath>
+							<tab>DarkDescent_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.RecordEventTracker">
+								<def>BlackPlague_VesselsTouched</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/BlackPlague_AchievementVesselTouches_First</texPath>
+							<points>5</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>BlackPlague_AchievementVesselTouches_More</defName>
+							<label>Persona Tardus Obsession</label>
+							<description>Have a pawn touch a Persona Tardus for their 25th time.</description>
+							<bgtexPath>Achievements/BlackPlague_AchievementBackground</bgtexPath>
+							<tab>DarkDescent_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.RecordEventTracker">
+								<def>BlackPlague_VesselsTouched</def>
+								<count>25</count>
+							</tracker>
+
+							<texPath>Achievements/BlackPlague_AchievementVesselTouches_More</texPath>
 							<points>15</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>BlackPlague_AchievementVesselTouches_Many</defName>
+							<label>Persona Tardus Addiction</label>
+							<description>Have a pawn touch a Persona Tardus for their 100th time.</description>
+							<bgtexPath>Achievements/BlackPlague_AchievementBackground</bgtexPath>
+							<tab>DarkDescent_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.RecordEventTracker">
+								<def>BlackPlague_VesselsTouched</def>
+								<count>100</count>
+							</tracker>
+
+							<texPath>Achievements/BlackPlague_AchievementVesselTouches_Many</texPath>
+							<points>50</points>
 						</AchievementsExpanded.AchievementDef>
 						
 					</value>

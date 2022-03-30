@@ -16,7 +16,7 @@
 	
 	<ThoughtDef>
 		<defName>BlackPlague_TouchedVessel_Infected</defName>
-		<durationDays>1</durationDays>
+		<durationDays>3</durationDays>
 		<doNotApplyToQuestLodgers>true</doNotApplyToQuestLodgers>
 		<stages>
 		  <li>

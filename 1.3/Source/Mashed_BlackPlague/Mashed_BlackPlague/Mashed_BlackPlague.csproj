@@ -60,10 +60,10 @@
     <Compile Include="DefOf\ThingDefOf.cs" />
     <Compile Include="DefOf\ThoughtDefOf.cs" />
     <Compile Include="HediffComp\HediffComp_TuurngaitVirus.cs" />
-    <Compile Include="MentalState\JobGiver_TouchVessel.cs" />
-    <Compile Include="MentalState\MentalStateWorker_TouchVessel.cs" />
-    <Compile Include="MentalState\MentalState_TouchVessel.cs" />
-    <Compile Include="MentalState\VesselObsessionMentalStateUtility.cs" />
+    <Compile Include="MentalState_TouchVessel\JobGiver_TouchVessel.cs" />
+    <Compile Include="MentalState_TouchVessel\MentalStateWorker_TouchVessel.cs" />
+    <Compile Include="MentalState_TouchVessel\MentalState_TouchVessel.cs" />
+    <Compile Include="MentalState_TouchVessel\VesselObsessionMentalStateUtility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThoughtWorker\ThoughtWorker_Situational_TuurngaitInColony.cs" />
     <Compile Include="ThoughtClass\Thought_Situational_TuurngaitInColony.cs" />

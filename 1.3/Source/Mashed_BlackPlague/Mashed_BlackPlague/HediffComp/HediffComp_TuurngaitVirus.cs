@@ -24,11 +24,13 @@ namespace Mashed_BlackPlague
             originalPawn.DropAndForbidEverything();
             originalPawn.Strip();
 
-            originalPawn.Kill(null);
-            Pawn newPawn = PawnGenerator.GeneratePawn(PawnKindDefOf.BlackPlague_TuurngaitRace, Faction.OfPlayer);
+            
+            Pawn newPawn = PawnGenerator.GeneratePawn(PawnKindDefOf.ESCP_TuurngaitKind, Faction.OfPlayer);
             newPawn.Name = originalPawn.Name;
+            newPawn.story.traits = originalPawn.story.traits;
             newPawn.ageTracker.AgeBiologicalTicks = originalPawn.ageTracker.AgeBiologicalTicks;
             //newPawn.gender = originalPawn.gender;
+            originalPawn.Kill(null);
             PawnUtility.TrySpawnHatchedOrBornPawn(newPawn, originalPawn.Corpse);
             originalPawn.Corpse.Destroy();
 
