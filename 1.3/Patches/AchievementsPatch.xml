@@ -39,11 +39,43 @@
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
 						
+						<!--
+						<AchievementsExpanded.AchievementDef>
+							<defName>BlackPlague_AchievementFinisSpecialis_First</defName>
+							<label>One For the Lower Caste</label>
+							<description>Obtain a Finis Specialis</description>
+							<bgtexPath>Achievements/BlackPlague_AchievementBackground</bgtexPath>
+							<tab>DarkDescent_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.ItemTracker">
+								<def>BlackPlague_FinisSpecialis</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/BlackPlague_AchievementFinisSpecialis_First</texPath>
+							<points>5</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>BlackPlague_AchievementFinisSpecialis_Many</defName>
+							<label>The Collection Grows</label>
+							<description>Obtain 5 Finis Specialis</description>
+							<bgtexPath>Achievements/BlackPlague_AchievementBackground</bgtexPath>
+							<tab>DarkDescent_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.ItemTracker">
+								<def>BlackPlague_FinisSpecialis</def>
+								<count>5</count>
+							</tracker>
+
+							<texPath>Achievements/BlackPlague_AchievementFinisSpecialis_Many</texPath>
+							<points>20</points>
+						</AchievementsExpanded.AchievementDef>
+						-->
+						
 						<!-- Pawns -->
 						
 						<AchievementsExpanded.AchievementDef>
 							<defName>BlackPlague_AchievementTuurngait_First</defName>
-							<label>There cannot be one</label>
+							<label>There Cannot be One</label>
 							<description>Have a Tuurngait in your colony</description>
 							<bgtexPath>Achievements/BlackPlague_AchievementBackground</bgtexPath>
 							<tab>DarkDescent_AchievementsTab</tab>
@@ -62,7 +94,7 @@
 						
 						<AchievementsExpanded.AchievementDef>
 							<defName>BlackPlague_AchievementTuurngait_Many</defName>
-							<label>There can only be us all</label>
+							<label>There Can Only be us All</label>
 							<description>Have 15 Tuurngait in your colony</description>
 							<bgtexPath>Achievements/BlackPlague_AchievementBackground</bgtexPath>
 							<tab>DarkDescent_AchievementsTab</tab>

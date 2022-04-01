@@ -17,7 +17,7 @@
 		<stackLimit>1</stackLimit>
 		<useHitPoints>true</useHitPoints>
 		<statBases>
-		  <MarketValue>500</MarketValue>
+		  <MarketValue>600</MarketValue>
 		  <MaxHitPoints>100</MaxHitPoints>
 		  <Mass>2</Mass>
 		  <Flammability>0.2</Flammability>
@@ -47,5 +47,46 @@
 		  </li>
 		</comps>
 	</ThingDef>
+	
+	<!--
+	<ThingDef ParentName="ResourceBase">
+		<defName>BlackPlague_FinisSpecialis</defName>
+		<label>Finis Specialis</label>
+		<description>An ancient artifact, of unknown origin. Suspected to be an Archotech relic, though seemingly devoid of use. Even still, some seem to enjoy collecting them.</description>
+		<graphicData>
+		  <texPath>Things/Item/Special/BlackPlague_FinisSpecialis</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <drawSize>0.8</drawSize>
+		</graphicData>
+		<tickerType>Rare</tickerType>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>1</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+		  <MarketValue>300</MarketValue>
+		  <MaxHitPoints>100</MaxHitPoints>
+		  <Mass>2</Mass>
+		  <Flammability>0.2</Flammability>
+		</statBases>
+		<thingCategories>
+		  <li>Artifacts</li>
+		</thingCategories>
+		<drawGUIOverlay>false</drawGUIOverlay>
+		<techLevel>Neolithic</techLevel>
+		<tradeTags>
+		  <li>Artifact</li>
+		  <li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+		<relicChance>3</relicChance>
+		<comps>
+		  <li Class="CompProperties_Styleable"></li>
+		</comps>
+	</ThingDef>
+	-->
 
 </Defs>

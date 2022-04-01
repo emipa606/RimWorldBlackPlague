@@ -15,5 +15,6 @@ namespace Mashed_BlackPlague
 
 		public static ThingDef BlackPlague_TuurngaitRace;
 		public static ThingDef BlackPlague_Vessel;
+		//public static ThingDef BlackPlague_FinisSpecialis;
 	}
 }
