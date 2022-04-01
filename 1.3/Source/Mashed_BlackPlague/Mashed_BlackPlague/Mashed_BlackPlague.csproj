@@ -70,15 +70,15 @@
     <Compile Include="MentalState_TouchVessel\MentalStateWorker_TouchVessel.cs" />
     <Compile Include="MentalState_TouchVessel\MentalState_TouchVessel.cs" />
     <Compile Include="MentalState_TouchVessel\VesselObsessionMentalStateUtility.cs" />
+    <Compile Include="ModSettings\Mashed_BlackPlague_Mod.cs" />
+    <Compile Include="ModSettings\Mashed_BlackPlague_ModSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThoughtWorker\ThoughtWorker_Situational_TuurngaitInColony.cs" />
     <Compile Include="ThoughtClass\Thought_Situational_TuurngaitInColony.cs" />
     <Compile Include="ThoughtWorker\ThoughtWorker_TuurngaitOpinionThought.cs" />
     <Compile Include="Utility.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ModSettings\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>

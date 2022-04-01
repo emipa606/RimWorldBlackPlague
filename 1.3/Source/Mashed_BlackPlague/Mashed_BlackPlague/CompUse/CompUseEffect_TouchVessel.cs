@@ -42,7 +42,7 @@ namespace Mashed_BlackPlague
         public override void DoEffect(Pawn usedBy)
 		{
 			base.DoEffect(usedBy);
-            if (Rand.Chance(Props.infectChance))
+            if (Rand.Chance(Mashed_BlackPlague_ModSettings.Chance_InfectedTouch))
             {
 				usedBy.needs.mood.thoughts.memories.TryGainMemory(ThoughtDefOf.BlackPlague_TouchedVessel_Infected, null, null);
 			}

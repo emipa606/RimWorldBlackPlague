@@ -51,6 +51,13 @@ namespace Mashed_BlackPlague
 
         public static bool PawnIsNotValid(Pawn p)
         {
+            if (DefDatabase<HediffDef>.GetNamedSilentFail("ESCP_SloadThrallPassive") != null)
+            {
+                if (p.health.hediffSet.GetFirstHediffOfDef(DefDatabase<HediffDef>.GetNamedSilentFail("ESCP_SloadThrallPassive")) != null)
+                {
+                    return true;
+                }
+            }
             return p.needs.mood == null || !p.RaceProps.IsFlesh || !p.RaceProps.Humanlike 
                 || p.def.defName == "ESCP_SloadRace";
         }

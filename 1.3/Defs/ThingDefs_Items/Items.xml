@@ -42,7 +42,6 @@
 			<useLabel>touch Persona Tardus</useLabel>
 		  </li>
 		  <li Class="Mashed_BlackPlague.CompProperties_UseEffectTouchVessel">
-			<infectChance>0.1</infectChance>
 			<cooldownTicksDays>60000</cooldownTicksDays>
 			<recordDef>BlackPlague_VesselsTouched</recordDef>
 		  </li>
