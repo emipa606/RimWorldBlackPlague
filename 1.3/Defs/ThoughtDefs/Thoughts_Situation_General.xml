@@ -14,6 +14,31 @@
 		  </li>
 		</stages>
 	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>BlackPlague_TuurngaitOpinion</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>Mashed_BlackPlague.ThoughtWorker_TuurngaitOpinionThought</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+		  <li>
+			<label>Tuurngait</label>
+			<baseOpinionOffset>-50</baseOpinionOffset>
+		  </li>
+		  <li>
+			<label>They are not part of us</label>
+			<baseOpinionOffset>-50</baseOpinionOffset>
+		  </li>
+		  <li>
+			<label>We are all</label>
+			<baseOpinionOffset>100</baseOpinionOffset>
+		  </li>
+		  <li>
+			<label>Soon they we will be part of us</label>
+			<baseOpinionOffset>25</baseOpinionOffset>
+		  </li>
+		</stages>
+	</ThoughtDef>
 
  </Defs>
  

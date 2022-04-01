@@ -4,7 +4,7 @@
 	<AlienRace.ThingDef_AlienRace ParentName="BlackPlague_BasePawnTuurngait">
 		<defName>BlackPlague_TuurngaitRace</defName>
 		<label>Tuurngait</label>
-		<description>TODO.</description>
+		<description>Victims of the Tuurngait virus, likely infected through frequent use of a Persona Tardus. The virus results in drastic physical and mental changes, usually morphing the victim into a singular consistent form.\n\nTuurngait themselves are effectively mindless vessels, displaying little intelligence. However, they are all connected by the Hivemind, obediently following its orders.\n\nTuurngait often display traits of their former selves, though usually not to their fullest. Much of their previous life is lost during rebirth, with only scattered fragments remaining in their consciousness.\n\nThe death of Tuurngait drastically weakens the Hivemind for a period of time, causing connected Tuurngait severe mental pain.</description>
 		<modExtensions>
 	
 		</modExtensions>
@@ -21,7 +21,7 @@
 			  <PsychicSensitivity>1.5</PsychicSensitivity>
 			  <ImmunityGainSpeed>2</ImmunityGainSpeed>
 			  <InjuryHealingFactor>2.0</InjuryHealingFactor>
-			  <GlobalLearningFactor>1.3</GlobalLearningFactor>
+			  <GlobalLearningFactor>0.7</GlobalLearningFactor>
 			
 			  <ToxicSensitivity>0.25</ToxicSensitivity>
 			  <SocialImpact>0.2</SocialImpact>
@@ -36,7 +36,7 @@
 			<deathActionWorkerClass>Mashed_BlackPlague.DeathActionWorker_Tuurngait</deathActionWorkerClass>
 			<nameGenerator>NamerPersonCorunan</nameGenerator>
 			<lifeExpectancy>500</lifeExpectancy>
-
+			<baseHealthScale>1.5</baseHealthScale>
 			<baseHungerRate>0.7</baseHungerRate>
 		</race>
 	
@@ -128,7 +128,7 @@
 			
 			<graphicPaths>
 				<li>
-					<!--<body>Things/Pawn/Humanlike/BlackPlague_Tuurngait/Body/</body>-->
+					<body>Things/Pawn/Humanlike/BlackPlague_Tuurngait/Body/</body>
 					<head>Things/Pawn/Humanlike/BlackPlague_Tuurngait/Head/</head>
 					<headMasks>Things/Pawn/Humanlike/BlackPlague_Tuurngait/HeadMask/Mask</headMasks>
 
@@ -147,6 +147,7 @@
 					<!-- Special -->
 					<li>BlackPlague_TuurngaitHivemindThought</li>
 					<li>BlackPlague_TuurngaitConnectionLost</li>
+					<li>BlackPlague_TuurngaitOpinion</li>
 					<!-- Positive -->
 					<li>PsychicEmanatorSoothe</li>
 					<li>ArtifactMoodBoost</li>

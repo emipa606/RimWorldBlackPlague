@@ -10,7 +10,7 @@ namespace Mashed_BlackPlague
 
 		static ThingDefOf()
 		{
-			DefOfHelper.EnsureInitializedInCtor(typeof(ThoughtDefOf));
+			DefOfHelper.EnsureInitializedInCtor(typeof(ThingDefOf));
 		}
 
 		public static ThingDef BlackPlague_TuurngaitRace;

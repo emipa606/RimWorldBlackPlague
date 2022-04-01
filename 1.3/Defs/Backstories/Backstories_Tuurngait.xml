@@ -18,12 +18,12 @@
 		<disallowedTraits>
 		</disallowedTraits>
 		<workDisables>
-			<li>Caring</li>
+
 		</workDisables>
 		<maleCommonality>100</maleCommonality>
 		<femaleCommonality>100</femaleCommonality>
 		<forcedHediffs>
-
+			<li>BlackPlague_TuurngaitPassive</li>
 		</forcedHediffs>
 	</AlienRace.BackstoryDef>
 	

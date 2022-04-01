@@ -39,6 +39,46 @@
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
 						
+						<!-- Pawns -->
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>BlackPlague_AchievementTuurngait_First</defName>
+							<label>There cannot be one</label>
+							<description>Have a Tuurngait in your colony</description>
+							<bgtexPath>Achievements/BlackPlague_AchievementBackground</bgtexPath>
+							<tab>DarkDescent_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<raceDefs>
+									<li>
+										<key>BlackPlague_TuurngaitRace</key>
+										<value>1</value>
+									</li>
+								</raceDefs>
+							</tracker>
+
+							<texPath>Achievements/BlackPlague_AchievementTuurngait_First</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>BlackPlague_AchievementTuurngait_Many</defName>
+							<label>There can only be us all</label>
+							<description>Have 15 Tuurngait in your colony</description>
+							<bgtexPath>Achievements/BlackPlague_AchievementBackground</bgtexPath>
+							<tab>DarkDescent_AchievementsTab</tab>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<raceDefs>
+									<li>
+										<key>BlackPlague_TuurngaitRace</key>
+										<value>15</value>
+									</li>
+								</raceDefs>
+							</tracker>
+
+							<texPath>Achievements/BlackPlague_AchievementTuurngait_Many</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+						
 						<!-- Stats -->
 						
 						<AchievementsExpanded.AchievementDef>

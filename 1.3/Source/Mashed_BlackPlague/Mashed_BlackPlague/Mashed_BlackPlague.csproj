@@ -31,6 +31,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony, Version=2.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lib.Harmony.2.2.1\lib\net472\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>I:\Steam_Library\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
@@ -56,9 +60,11 @@
     <Compile Include="CompUse\Properties\CompProperties_UseEffectTouchVessel.cs" />
     <Compile Include="CompUse\CompUseEffect_TouchVessel.cs" />
     <Compile Include="DeathActionWorker\DeathActionWorker_Tuurngait.cs" />
+    <Compile Include="DefOf\HediffDefOf.cs" />
     <Compile Include="DefOf\PawnKindDefOf.cs" />
     <Compile Include="DefOf\ThingDefOf.cs" />
     <Compile Include="DefOf\ThoughtDefOf.cs" />
+    <Compile Include="Harmony\Harmony.cs" />
     <Compile Include="HediffComp\HediffComp_TuurngaitVirus.cs" />
     <Compile Include="MentalState_TouchVessel\JobGiver_TouchVessel.cs" />
     <Compile Include="MentalState_TouchVessel\MentalStateWorker_TouchVessel.cs" />
@@ -67,10 +73,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThoughtWorker\ThoughtWorker_Situational_TuurngaitInColony.cs" />
     <Compile Include="ThoughtClass\Thought_Situational_TuurngaitInColony.cs" />
+    <Compile Include="ThoughtWorker\ThoughtWorker_TuurngaitOpinionThought.cs" />
     <Compile Include="Utility.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ModSettings\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

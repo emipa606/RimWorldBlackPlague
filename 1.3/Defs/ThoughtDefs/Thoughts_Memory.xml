@@ -35,8 +35,8 @@
 		<stages>
 		  <li>
 			<label>connection lost</label>
-			<description>The silence, one of us is gone!</description>
-			<baseMoodEffect>-15</baseMoodEffect>
+			<description>The silence! The pain! One of us is gone!</description>
+			<baseMoodEffect>-20</baseMoodEffect>
 		  </li>
 		</stages>
 	</ThoughtDef>
