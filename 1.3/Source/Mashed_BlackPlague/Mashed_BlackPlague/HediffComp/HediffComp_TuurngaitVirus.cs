@@ -25,7 +25,7 @@ namespace Mashed_BlackPlague
             originalPawn.Strip();
 
             
-            Pawn newPawn = PawnGenerator.GeneratePawn(PawnKindDefOf.ESCP_TuurngaitKind, Faction.OfPlayer);
+            Pawn newPawn = PawnGenerator.GeneratePawn(PawnKindDefOf.BlackPlague_TuurngaitKind, Faction.OfPlayer);
             newPawn.Name = originalPawn.Name;
             newPawn.story.traits = originalPawn.story.traits;
             newPawn.ageTracker.AgeBiologicalTicks = originalPawn.ageTracker.AgeBiologicalTicks;

@@ -9,7 +9,7 @@
 					<pawnKindEntries>
 						<li>
 							<kindDefs>
-								<li>ESCP_TuurngaitKind</li>
+								<li>BlackPlague_TuurngaitKind</li>
 							</kindDefs>
 							<chance>100.0</chance>
 						</li>

@@ -9,7 +9,7 @@
     <categoryTag>Tribal</categoryTag>
     <pawnSingular>tribesman</pawnSingular>
     <pawnsPlural>tribespeople</pawnsPlural>
-    <basicMemberKind>ESCP_TuurngaitKind</basicMemberKind>
+    <basicMemberKind>BlackPlague_TuurngaitKind</basicMemberKind>
     <techLevel>Neolithic</techLevel>
     <factionNameMaker>NamerFactionTribal</factionNameMaker>
     <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
