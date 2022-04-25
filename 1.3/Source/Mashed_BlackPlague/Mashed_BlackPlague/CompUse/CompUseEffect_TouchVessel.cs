@@ -45,6 +45,7 @@ namespace Mashed_BlackPlague
             if (Rand.Chance(Mashed_BlackPlague_ModSettings.Chance_InfectedTouch))
             {
 				usedBy.needs.mood.thoughts.memories.TryGainMemory(ThoughtDefOf.BlackPlague_TouchedVessel_Infected, null, null);
+				usedBy.health.AddHediff(HediffDefOf.BlackPlague_TuurngaitVirus).Severity = 0.001f;
 			}
 			else
             {
