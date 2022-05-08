@@ -20,7 +20,7 @@
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
 		<apparelTags>
-		
+			<li>BlackPlague_TuurngaitApparel</li>
 		</apparelTags>
 		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
 		<apparelMoney>0</apparelMoney>
@@ -51,7 +51,7 @@
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
 		<forceNormalGearQuality>true</forceNormalGearQuality>
 		<apparelTags>
-		
+			<li>BlackPlague_TuurngaitApparel</li>
 		</apparelTags>
 		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
 		<apparelMoney>0</apparelMoney>

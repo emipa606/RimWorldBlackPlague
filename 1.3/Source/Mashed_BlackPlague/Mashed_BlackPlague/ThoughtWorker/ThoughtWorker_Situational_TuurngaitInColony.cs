@@ -8,7 +8,7 @@ namespace Mashed_BlackPlague
     {
         protected override ThoughtState CurrentStateInternal(Pawn p)
         {
-            return p.IsColonist && Utility.PawnIsTuurngait(p);
+            return p.Faction != null && Utility.PawnIsTuurngait(p);
         }
     }
 }
