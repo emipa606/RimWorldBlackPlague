@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-  <version>1.0.0</version>
-  <manifestUri></manifestUri>
-  <downloadUri></downloadUri>
-  <showCrossPromotions>true</showCrossPromotions>
+  <identifier>RimWorldBlackPlague</identifier>
+  <version>1.4.1</version>
+  <dependencies />
+  <incompatibleWith />
+  <loadBefore />
+  <loadAfter />
+  <manifestUri>https://raw.githubusercontent.com/emipa606/RimWorldBlackPlague/master/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/emipa606/RimWorldBlackPlague/releases</downloadUri>
 </Manifest>
